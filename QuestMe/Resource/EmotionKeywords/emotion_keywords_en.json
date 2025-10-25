@@ -1,0 +1,16 @@
+{
+  "happy": ["happy", "joy", "awesome", "smile", "excited"],
+  "sad": ["sad", "pain", "cry", "depressed", "lonely"],
+  "angry": ["angry", "mad", "furious", "annoyed"],
+  "gentle": ["calm", "safe", "okay", "gentle"],
+  "poetic": ["dew", "shine", "moment", "wind", "silence", "sparkle"],
+  "philosophical": ["question", "meaning", "think", "existence", "truth"],
+  "childish": ["hey hey", "funny", "no way", "play", "wonder"],
+  "elderly": ["slowly", "take it easy", "no rush", "peaceful", "gentle"],
+  "robotic": ["processing", "command", "complete", "analyzing", "executing"],
+  "romantic": ["love", "like", "heart", "flutter", "you"],
+  "playful": ["game", "fun", "trick", "excited", "silly"],
+  "shy": ["shy", "embarrassed", "can't say", "nervous"],
+  "proud": ["confident", "did it", "great", "proud", "yes"],
+  "confused": ["don't know", "what now", "confused", "lost", "unsure"]
+}

@@ -1,0 +1,44 @@
+/* 
+ // FileName: Localizable.strings
+ // Module: Language
+ // StoragePath: QuestMe/Language/en.lproj/Localizable.strings
+ // Created by 津村 淳一 on 2025/09/27
+ // Purpose: 英語ローカライズキー
+ "welcome_title" = "Welcome to QuestMe";
+ "consent_title" = "About Data Handling";
+ "consent_intro" = "QuestMe handles your photos, audio, and emotion data safely under international law.";
+ "consent_intro_body" = "Please read the following summary to understand how your data is used.";
+ "gdpr_title" = "GDPR (EU)";
+ "gdpr_body" = "Explicit consent, right to erasure, cross-border restrictions.";
+ "hipaa_title" = "HIPAA (US)";
+ "hipaa_body" = "Strict management of healthcare-related data.";
+ "jp_title" = "Japan Act on the Protection of Personal Information";
+ "jp_body" = "Purpose specification and restrictions on third-party provision.";
+ "pipl_title" = "PIPL (China)";
+ "pipl_body" = "Strict rules for face, voice, and location data.";
+ "consent_agree_toggle" = "I understand and agree";
+ "language_select_title" = "Select your language";
+ "language_select_label" = "Language";
+ "start_adventure" = "Start your adventure";
+ "adventure_ready" = "Ready. Let’s begin your journey.";
+ "adventure_hint" = "Your companion will move at your pace.";
+ "begin_quest" = "Begin Quest";
+ "nutrition_title" = "Nutrition Record";
+ "help_button" = "Help";
+ "capture_button" = "Capture";
+ "menu_button" = "Menu";
+ "main_button" = "Home";
+ "take_another" = "Take Another";
+
+ "analyzing_wait" = "Please wait for analysis…";
+ "analysis_done" = "Analysis completed.";
+ "save_done_title" = "Save completed";
+ "save_done_message" = "Saved. Choose Take Another, Menu, or Home.";
+ "init_camera_failed" = "Failed to initialize camera.";
+
+ "estimated_calories_format" = "Estimated Calories: %.0f kcal";
+ "meal" = "Meal";
+ "captured_meal" = "Captured meal";
+
+ "help_text_long" = "Place the meal within the central frame and hold still for auto-capture. After capture, analysis and saving run automatically; choose 'Take Another', 'Menu', or 'Home'. If analysis exceeds 2 seconds, a waiting message appears.";
+*/

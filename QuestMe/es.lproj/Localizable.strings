@@ -1,0 +1,50 @@
+/* 
+ // FileName: Localizable.strings
+ // Module: Language
+ // StoragePath: QuestMe/Language/en.lproj/Localizable.strings
+ // Created by 津村 淳一 on 2025/09/27
+ // Purpose: 英語ローカライズキー
+ "welcome_title" = "Bienvenido a QuestMe";
+ "consent_title" = "Acerca del manejo de datos";
+ "consent_intro" = "QuestMe maneja tus fotos, audios y datos de emociones de forma segura conforme a la ley internacional.";
+ "consent_intro_body" = "Por favor, lee el siguiente resumen para comprender cómo se utilizan tus datos.";
+
+ "gdpr_title" = "RGPD (UE)";
+ "gdpr_body" = "Consentimiento expreso, derecho de supresión, restricciones a la transferencia transfronteriza.";
+
+ "hipaa_title" = "HIPAA (EE. UU.)";
+ "hipaa_body" = "Gestión estricta de los datos relacionados con la salud.";
+
+ "jp_title" = "Ley de Protección de la Información Personal (Japón)";
+ "jp_body" = "Especificación del propósito y restricciones en la provisión a terceros.";
+
+ "pipl_title" = "PIPL (China)";
+ "pipl_body" = "Reglas estrictas para datos de rostro, voz y ubicación.";
+
+ "consent_agree_toggle" = "Entiendo y acepto";
+
+ "language_select_title" = "Selecciona tu idioma";
+ "language_select_label" = "Idioma";
+
+ "start_adventure" = "Comienza tu aventura";
+ "adventure_ready" = "Listo. Empecemos tu viaje.";
+ "adventure_hint" = "Tu compañero avanzará a tu ritmo.";
+ "begin_quest" = "Comenzar misión";
+
+ "nutrition_title" = "Registro de nutrición";
+ "help_button" = "Ayuda";
+ "capture_button" = "Capturar";
+ "menu_button" = "Menú";
+ "main_button" = "Inicio";
+ "take_another" = "Tomar otra";
+
+ "analyzing_wait" = "Por favor espera mientras se realiza el análisis…";
+ "analysis_done" = "Análisis completado.";
+ "save_done_title" = "Guardado completado";
+ "save_done_message" = "Guardado. Elige Tomar otra, Menú o Inicio.";
+ "init_camera_failed" = "No se pudo inicializar la cámara.";
+
+ "estimated_calories_format" = "Calorías estimadas: %.0f kcal";
+ "meal" = "Comida";
+ "captured_meal" = "Comida capturada";
+*/

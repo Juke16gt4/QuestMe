@@ -1,0 +1,50 @@
+/* 
+ // FileName: Localizable.strings
+ // Module: Language
+ // StoragePath: QuestMe/Language/en.lproj/Localizable.strings
+ // Created by 津村 淳一 on 2025/09/27
+ // Purpose: 英語ローカライズキー
+ "welcome_title" = "Bienvenue sur QuestMe";
+ "consent_title" = "À propos du traitement des données";
+ "consent_intro" = "QuestMe gère vos photos, vos enregistrements audio et vos données émotionnelles en toute sécurité conformément au droit international.";
+ "consent_intro_body" = "Veuillez lire le résumé suivant pour comprendre comment vos données sont utilisées.";
+
+ "gdpr_title" = "RGPD (UE)";
+ "gdpr_body" = "Consentement explicite, droit à l’effacement, restrictions aux transferts transfrontaliers.";
+
+ "hipaa_title" = "HIPAA (États-Unis)";
+ "hipaa_body" = "Gestion stricte des données liées à la santé.";
+
+ "jp_title" = "Loi japonaise sur la protection des informations personnelles";
+ "jp_body" = "Spécification de la finalité et restrictions concernant la fourniture à des tiers.";
+
+ "pipl_title" = "PIPL (Chine)";
+ "pipl_body" = "Règles strictes concernant les données faciales, vocales et de localisation.";
+
+ "consent_agree_toggle" = "Je comprends et j’accepte";
+
+ "language_select_title" = "Sélectionnez votre langue";
+ "language_select_label" = "Langue";
+
+ "start_adventure" = "Commencez votre aventure";
+ "adventure_ready" = "Prêt. Commençons votre voyage.";
+ "adventure_hint" = "Votre compagnon avancera à votre rythme.";
+ "begin_quest" = "Commencer la quête";
+
+ "nutrition_title" = "Enregistrement nutritionnel";
+ "help_button" = "Aide";
+ "capture_button" = "Capturer";
+ "menu_button" = "Menu";
+ "main_button" = "Accueil";
+ "take_another" = "Prendre une autre";
+
+ "analyzing_wait" = "Veuillez patienter pendant l’analyse…";
+ "analysis_done" = "Analyse terminée.";
+ "save_done_title" = "Enregistrement terminé";
+ "save_done_message" = "Enregistré. Choisissez Prendre une autre, Menu ou Accueil.";
+ "init_camera_failed" = "Échec de l’initialisation de la caméra.";
+
+ "estimated_calories_format" = "Calories estimées : %.0f kcal";
+ "meal" = "Repas";
+ "captured_meal" = "Repas capturé";
+*/

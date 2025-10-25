@@ -1,0 +1,70 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2025-09-29T12:31:41Z",
+        "event" : "dataSourceCreated",
+        "id" : "5E45288D-DD81-46EF-B118-78F88B1D3138",
+        "subtitle" : "joy_001.csv",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2025-09-29T12:31:41Z",
+  "dataPathRelativeToProjectURL" : "../QuestMe/Companion/MLModels/joy/joy_001.csv/",
+  "dataResult" : {
+    "classesCount" : 0,
+    "createdDate" : "2025-09-29T12:31:41Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+        "labelStats" : {
+
+        }
+      },
+      "issues" : [
+        {
+          "description" : "Missing required field 'label'.",
+          "severity" : "error"
+        },
+        {
+          "description" : "Expected texts organized into folders, named for their class",
+          "severity" : "error"
+        },
+        {
+          "description" : "Expected to find folders containing texts, named for their class",
+          "severity" : "error"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 0,
+        "classCount" : 0,
+        "sampleCount" : 0
+      }
+    },
+    "dataSourceID" : "3C312160-43E9-482F-8042-6CD58EFA100B",
+    "dataURL" : "file:///Users/tsumurajunichi/Documents/QuestMe/QuestMe/Companion/MLModels/joy/joy_001.csv",
+    "error" : {
+      "code" : 1000,
+      "domain" : "composer.error.domain",
+      "errorType" : "error",
+      "reason" : "Missing required field 'label'."
+    },
+    "itemsCount" : 0
+  },
+  "dataURL" : "file:///Users/tsumurajunichi/Documents/QuestMe/QuestMe/Companion/MLModels/joy/joy_001.csv",
+  "experimentIDs" : [
+    "695ABE3E-40C4-4F9D-8DA7-0447652D71D7"
+  ],
+  "id" : "3C312160-43E9-482F-8042-6CD58EFA100B",
+  "modifiedDate" : "2025-09-29T13:42:09Z",
+  "pathType" : 0,
+  "preferredFilename" : "joy_001.csv",
+  "title" : "joy_001.csv",
+  "version" : "1.0"
+}

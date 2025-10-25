@@ -1,0 +1,124 @@
+{
+  "activityEntities" : [
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2025-09-30T09:30:47Z",
+        "event" : "experimentCreated",
+        "id" : "3E929D3B-1B11-4F71-83CF-792B8C04F5AB",
+        "subtitle" : "MyTextClassifier 1",
+        "title" : "Model Source Created"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+
+  },
+  "createdDate" : "2025-09-30T09:30:47Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2025-09-30T09:30:47Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "1818e39c-29a4-4f84-ad3b-381a8a06888b",
+    "modifiedDate" : "2025-09-30T09:30:47Z",
+    "previewType" : "textClassifier",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2025-09-30T09:30:47Z",
+      "dataResult" : {
+
+      },
+      "id" : "164051a0-6417-432a-9f74-45fc85e77ee0"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2025-09-30T09:30:47Z",
+      "dataResult" : {
+
+      },
+      "id" : "c3dac049-7fa7-417b-bcda-ee5a1fb2a177"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2025-09-30T09:30:47Z",
+      "dataResult" : {
+
+      },
+      "id" : "7b1686a0-e128-45e5-bbac-bbd1bc535794"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "f83d4fdb-110c-4b8f-aebe-3ba763201d3d"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "1618C6AF-AE0F-410B-8BE3-E177527D69E6",
+  "modelEntity" : {
+    "createdDate" : "2025-09-30T09:30:47Z",
+    "experimentID" : "1618C6AF-AE0F-410B-8BE3-E177527D69E6",
+    "id" : "13E52F75-4B93-419D-AEF6-79E15A2170E6",
+    "modifiedDate" : "2025-09-30T09:30:47Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2025-09-30T09:30:47Z",
+  "preferredFilename" : "MyTextClassifier 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "textClassifier"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "uninitialized",
+  "title" : "MyTextClassifier 1",
+  "trainingEntity" : {
+    "analysedDataType" : "choose",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+
+    },
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "progress" : [
+
+    ],
+    "snapshottableCheckpoints" : {
+
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

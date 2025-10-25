@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleSignature</key>
+	<string></string>
+	<key>Debug</key>
+	<string>Pods-QuestMe.debug.xcconfig</string>
+	<key>GoogleMapsAPIKey</key>
+	<string>AIzaSyAQy7xVQF45LCOchGwahH7Ls-TZY17t9Q8</string>
+	<key>Release</key>
+	<string>Pods-QuestMe.release.xcconfig</string>
+</dict>
+</plist>

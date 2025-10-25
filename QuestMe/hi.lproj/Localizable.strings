@@ -1,0 +1,50 @@
+/* 
+ // FileName: Localizable.strings
+ // Module: Language
+ // StoragePath: QuestMe/Language/en.lproj/Localizable.strings
+ // Created by 津村 淳一 on 2025/09/27
+ // Purpose: 英語ローカライズキー
+ "welcome_title" = "QuestMe में आपका स्वागत है";
+ "consent_title" = "डेटा प्रबंधन के बारे में";
+ "consent_intro" = "QuestMe आपके फ़ोटो, ऑडियो और भावनात्मक डेटा को अंतर्राष्ट्रीय कानून के अनुसार सुरक्षित रूप से संभालता है।";
+ "consent_intro_body" = "कृपया यह समझने के लिए निम्न सारांश पढ़ें कि आपका डेटा कैसे उपयोग किया जाता है।";
+
+ "gdpr_title" = "GDPR (EU)";
+ "gdpr_body" = "स्पष्ट सहमति, मिटाने का अधिकार, सीमा-पार स्थानांतरण पर प्रतिबंध।";
+
+ "hipaa_title" = "HIPAA (अमेरिका)";
+ "hipaa_body" = "स्वास्थ्य संबंधी डेटा का सख्त प्रबंधन।";
+
+ "jp_title" = "जापान व्यक्तिगत सूचना संरक्षण अधिनियम";
+ "jp_body" = "उद्देश्य की विशिष्टता और तृतीय पक्ष को प्रदान करने पर प्रतिबंध।";
+
+ "pipl_title" = "PIPL (चीन)";
+ "pipl_body" = "चेहरे, आवाज़ और स्थान डेटा के लिए सख्त नियम।";
+
+ "consent_agree_toggle" = "मैं समझता हूँ और सहमत हूँ";
+
+ "language_select_title" = "अपनी भाषा चुनें";
+ "language_select_label" = "भाषा";
+
+ "start_adventure" = "अपना साहसिक कार्य शुरू करें";
+ "adventure_ready" = "तैयार। आइए आपकी यात्रा शुरू करें।";
+ "adventure_hint" = "आपका साथी आपकी गति के अनुसार आगे बढ़ेगा।";
+ "begin_quest" = "क्वेस्ट शुरू करें";
+
+ "nutrition_title" = "पोषण रिकॉर्ड";
+ "help_button" = "सहायता";
+ "capture_button" = "कैप्चर करें";
+ "menu_button" = "मेनू";
+ "main_button" = "मुख्य पृष्ठ";
+ "take_another" = "एक और लें";
+
+ "analyzing_wait" = "कृपया विश्लेषण के दौरान प्रतीक्षा करें…";
+ "analysis_done" = "विश्लेषण पूरा हुआ।";
+ "save_done_title" = "सहेजना पूरा हुआ";
+ "save_done_message" = "सहेजा गया। एक और लें, मेनू या मुख्य पृष्ठ चुनें।";
+ "init_camera_failed" = "कैमरा प्रारंभ करने में विफल।";
+
+ "estimated_calories_format" = "अनुमानित कैलोरी: %.0f किलो कैलोरी";
+ "meal" = "भोजन";
+ "captured_meal" = "कैप्चर किया गया भोजन";
+*/

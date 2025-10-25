@@ -1,0 +1,50 @@
+/* 
+ // FileName: Localizable.strings
+ // Module: Language
+ // StoragePath: QuestMe/Language/en.lproj/Localizable.strings
+ // Created by 津村 淳一 on 2025/09/27
+ // Purpose: 英語ローカライズキー
+ "welcome_title" = "Välkommen till QuestMe";
+ "consent_title" = "Om datahantering";
+ "consent_intro" = "QuestMe hanterar dina foton, ljud och känslodata på ett säkert sätt i enlighet med internationell lag.";
+ "consent_intro_body" = "Läs följande sammanfattning för att förstå hur dina data används.";
+
+ "gdpr_title" = "GDPR (EU)";
+ "gdpr_body" = "Uttryckligt samtycke, rätt till radering, begränsningar för gränsöverskridande överföring.";
+
+ "hipaa_title" = "HIPAA (USA)";
+ "hipaa_body" = "Strikt hantering av hälso-relaterade data.";
+
+ "jp_title" = "Japans lag om skydd av personuppgifter";
+ "jp_body" = "Specificering av syfte och begränsningar för utlämnande till tredje part.";
+
+ "pipl_title" = "PIPL (Kina)";
+ "pipl_body" = "Strikta regler för ansikts-, röst- och platsdata.";
+
+ "consent_agree_toggle" = "Jag förstår och samtycker";
+
+ "language_select_title" = "Välj språk";
+ "language_select_label" = "Språk";
+
+ "start_adventure" = "Börja ditt äventyr";
+ "adventure_ready" = "Klar. Låt oss börja din resa.";
+ "adventure_hint" = "Din följeslagare kommer att röra sig i din takt.";
+ "begin_quest" = "Börja uppdrag";
+
+ "nutrition_title" = "Näringslogg";
+ "help_button" = "Hjälp";
+ "capture_button" = "Fånga";
+ "menu_button" = "Meny";
+ "main_button" = "Hem";
+ "take_another" = "Ta en till";
+
+ "analyzing_wait" = "Vänligen vänta medan analysen pågår…";
+ "analysis_done" = "Analysen är klar.";
+ "save_done_title" = "Sparande slutfört";
+ "save_done_message" = "Sparat. Välj Ta en till, Meny eller Hem.";
+ "init_camera_failed" = "Kunde inte initialisera kameran.";
+
+ "estimated_calories_format" = "Beräknade kalorier: %.0f kcal";
+ "meal" = "Måltid";
+ "captured_meal" = "Fångad måltid";
+*/

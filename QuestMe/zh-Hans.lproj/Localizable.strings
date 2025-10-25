@@ -1,0 +1,50 @@
+/* 
+ // FileName: Localizable.strings
+ // Module: Language
+ // StoragePath: QuestMe/Language/en.lproj/Localizable.strings
+ // Created by 津村 淳一 on 2025/09/27
+ // Purpose: 英語ローカライズキー
+ "welcome_title" = "欢迎使用 QuestMe";
+ "consent_title" = "关于数据处理";
+ "consent_intro" = "QuestMe 会根据国际法律安全地处理您的照片、音频和情感数据。";
+ "consent_intro_body" = "请阅读以下摘要以了解您的数据是如何被使用的。";
+
+ "gdpr_title" = "GDPR (欧盟)";
+ "gdpr_body" = "明确同意、删除权、跨境传输限制。";
+
+ "hipaa_title" = "HIPAA (美国)";
+ "hipaa_body" = "对健康相关数据的严格管理。";
+
+ "jp_title" = "日本个人信息保护法";
+ "jp_body" = "目的限定以及对向第三方提供的限制。";
+
+ "pipl_title" = "PIPL (中国)";
+ "pipl_body" = "针对人脸、语音和位置信息的严格规定。";
+
+ "consent_agree_toggle" = "我理解并同意";
+
+ "language_select_title" = "选择您的语言";
+ "language_select_label" = "语言";
+
+ "start_adventure" = "开始您的冒险";
+ "adventure_ready" = "准备好了。让我们开始您的旅程。";
+ "adventure_hint" = "您的伙伴将按照您的节奏前进。";
+ "begin_quest" = "开始任务";
+
+ "nutrition_title" = "营养记录";
+ "help_button" = "帮助";
+ "capture_button" = "拍摄";
+ "menu_button" = "菜单";
+ "main_button" = "主页";
+ "take_another" = "再拍一张";
+
+ "analyzing_wait" = "分析中，请稍候…";
+ "analysis_done" = "分析完成。";
+ "save_done_title" = "保存完成";
+ "save_done_message" = "已保存。请选择再拍一张、菜单或主页。";
+ "init_camera_failed" = "无法初始化相机。";
+
+ "estimated_calories_format" = "预计热量: %.0f 千卡";
+ "meal" = "餐食";
+ "captured_meal" = "已拍摄的餐食";
+*/

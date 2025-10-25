@@ -1,0 +1,95 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2025-09-29T12:30:34Z",
+        "event" : "dataSourceCreated",
+        "id" : "18D87E3A-F3F9-4668-B117-C5717E2556D9",
+        "subtitle" : "emotion_dataset.csv",
+        "title" : "Data Source Created"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2025-09-29T14:02:07Z",
+        "event" : "dataSourceMetrics",
+        "id" : "A85ED9B9-13EC-4F12-A7CE-8162BE257C91",
+        "subtitle" : "8 Classes, 107 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2025-09-29T14:02:07Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "65BC13EB-D7C8-403D-A068-059966653EE4",
+        "subtitle" : "MyTextClassifier 1",
+        "title" : "Used By"
+      }
+    ]
+  ],
+  "createdDate" : "2025-09-29T12:30:34Z",
+  "dataPathRelativeToProjectURL" : "../QuestMe/Companion/MLModels/emotion_dataset.csv/",
+  "dataResult" : {
+    "classesCount" : 8,
+    "createdDate" : "2025-09-29T12:30:34Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+        "labelStats" : {
+          "" : 53,
+          "confused" : 8,
+          "discomfort" : 8,
+          "disgust" : 8,
+          "joy" : 8,
+          "neutral" : 7,
+          "sadness" : 8,
+          "serious" : 7
+        }
+      },
+      "issues" : [
+        {
+          "description" : "8 classes found, including , sadness, disgust",
+          "severity" : "debug"
+        },
+        {
+          "description" : "107 texts found, automatically creating validation set",
+          "severity" : "good"
+        },
+        {
+          "description" : "Smallest class is \"serious\" with 7 texts",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Largest class is \"\" with 53 text",
+          "severity" : "debug"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 1,
+        "classCount" : 8,
+        "sampleCount" : 107
+      }
+    },
+    "dataSourceID" : "C5EBB111-CF70-4864-97EE-2B810F88FD2D",
+    "dataURL" : "file:///Users/tsumurajunichi/Documents/QuestMe/QuestMe/Companion/MLModels/emotion_dataset.csv",
+    "itemsCount" : 107
+  },
+  "dataURL" : "file:///Users/tsumurajunichi/Documents/QuestMe/QuestMe/Companion/MLModels/emotion_dataset.csv",
+  "experimentIDs" : [
+    "695ABE3E-40C4-4F9D-8DA7-0447652D71D7"
+  ],
+  "id" : "C5EBB111-CF70-4864-97EE-2B810F88FD2D",
+  "modifiedDate" : "2025-09-29T14:04:31Z",
+  "pathType" : 0,
+  "preferredFilename" : "emotion_dataset.csv",
+  "title" : "emotion_dataset.csv",
+  "version" : "1.0"
+}

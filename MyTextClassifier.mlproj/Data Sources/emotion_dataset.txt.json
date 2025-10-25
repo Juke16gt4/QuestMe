@@ -1,0 +1,31 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2025-09-29T12:33:14Z",
+        "event" : "dataSourceCreated",
+        "id" : "2DE73373-66E4-4972-9BE9-374C987EA575",
+        "subtitle" : "emotion_dataset.txt",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2025-09-29T12:33:14Z",
+  "dataPathRelativeToProjectURL" : "../QuestMe/Companion/MLModels/emotion_dataset.txt/",
+  "dataResult" : {
+    "createdDate" : "2025-09-29T12:33:14Z",
+    "dataSourceID" : "1E7E5E39-F0EE-4725-A401-218DBABBCE2B",
+    "dataURL" : "file:///Users/tsumurajunichi/Documents/QuestMe/QuestMe/Companion/MLModels/emotion_dataset.txt"
+  },
+  "dataURL" : "file:///Users/tsumurajunichi/Documents/QuestMe/QuestMe/Companion/MLModels/emotion_dataset.txt",
+  "experimentIDs" : [
+    "695ABE3E-40C4-4F9D-8DA7-0447652D71D7"
+  ],
+  "id" : "1E7E5E39-F0EE-4725-A401-218DBABBCE2B",
+  "modifiedDate" : "2025-09-29T12:33:14Z",
+  "pathType" : 0,
+  "preferredFilename" : "emotion_dataset.txt",
+  "title" : "emotion_dataset.txt",
+  "version" : "1.0"
+}

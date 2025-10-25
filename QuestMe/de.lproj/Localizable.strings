@@ -1,0 +1,50 @@
+/* 
+ // FileName: Localizable.strings
+ // Module: Language
+ // StoragePath: QuestMe/Language/en.lproj/Localizable.strings
+ // Created by 津村 淳一 on 2025/09/27
+ // Purpose: 英語ローカライズキー
+ "welcome_title" = "Willkommen bei QuestMe";
+ "consent_title" = "Über den Umgang mit Daten";
+ "consent_intro" = "QuestMe behandelt Ihre Fotos, Audiodaten und Emotionsdaten sicher gemäß internationalem Recht.";
+ "consent_intro_body" = "Bitte lesen Sie die folgende Zusammenfassung, um zu verstehen, wie Ihre Daten verwendet werden.";
+
+ "gdpr_title" = "DSGVO (EU)";
+ "gdpr_body" = "Ausdrückliche Zustimmung, Recht auf Löschung, Beschränkungen beim grenzüberschreitenden Datentransfer.";
+
+ "hipaa_title" = "HIPAA (USA)";
+ "hipaa_body" = "Strenge Verwaltung von gesundheitsbezogenen Daten.";
+
+ "jp_title" = "Gesetz zum Schutz personenbezogener Daten (Japan)";
+ "jp_body" = "Zweckbestimmung und Einschränkungen bei der Weitergabe an Dritte.";
+
+ "pipl_title" = "PIPL (China)";
+ "pipl_body" = "Strenge Regeln für Gesichts-, Sprach- und Standortdaten.";
+
+ "consent_agree_toggle" = "Ich verstehe und stimme zu";
+
+ "language_select_title" = "Wählen Sie Ihre Sprache";
+ "language_select_label" = "Sprache";
+
+ "start_adventure" = "Beginnen Sie Ihr Abenteuer";
+ "adventure_ready" = "Bereit. Lassen Sie uns Ihre Reise beginnen.";
+ "adventure_hint" = "Ihr Begleiter bewegt sich in Ihrem Tempo.";
+ "begin_quest" = "Quest beginnen";
+
+ "nutrition_title" = "Ernährungsprotokoll";
+ "help_button" = "Hilfe";
+ "capture_button" = "Aufnehmen";
+ "menu_button" = "Menü";
+ "main_button" = "Startseite";
+ "take_another" = "Noch eine aufnehmen";
+
+ "analyzing_wait" = "Bitte warten Sie während der Analyse…";
+ "analysis_done" = "Analyse abgeschlossen.";
+ "save_done_title" = "Speichern abgeschlossen";
+ "save_done_message" = "Gespeichert. Wählen Sie Noch eine aufnehmen, Menü oder Startseite.";
+ "init_camera_failed" = "Kamera konnte nicht initialisiert werden.";
+
+ "estimated_calories_format" = "Geschätzte Kalorien: %.0f kcal";
+ "meal" = "Mahlzeit";
+ "captured_meal" = "Aufgenommene Mahlzeit";
+*/

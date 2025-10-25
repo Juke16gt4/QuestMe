@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2025-09-29T12:30:21Z",
+        "event" : "projectCreated",
+        "id" : "2F49DDBA-ADA4-4BFE-8BF6-77C34F83425F",
+        "subtitle" : "MyTextClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "津村淳一",
+  "createdDate" : "2025-09-29T12:30:21Z",
+  "description" : "感情表現List",
+  "id" : "7E712143-757E-4C46-88A0-74CA805A3F25",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2025-09-29T12:30:21Z",
+  "projectName" : "MyTextClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "textClassifier",
+  "title" : "Text Classification",
+  "version" : "1.1"
+}

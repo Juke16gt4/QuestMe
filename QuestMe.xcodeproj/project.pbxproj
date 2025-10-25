@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D890A0D62E876E9900924232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D890A0BE2E876E9800924232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D890A0C52E876E9800924232;
+			remoteInfo = QuestMe;
+		};
+		D890A0E02E876E9900924232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D890A0BE2E876E9800924232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D890A0C52E876E9800924232;
+			remoteInfo = QuestMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D890A0C62E876E9800924232 /* QuestMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D890A0D52E876E9900924232 /* QuestMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D890A0DF2E876E9900924232 /* QuestMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89D9C6C2EA9222000AE2B49 /* GoogleMaps.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMaps.xcframework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.xcframework; sourceTree = "<group>"; };
+		D89D9C702EA9224C00AE2B49 /* GoogleMapsUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleMapsUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D8F624912E8BF07000EE1FDD /* Exceptions for "QuestMe" folder in "QuestMe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Companion.png,
+				Companion/MLModels/emotion_dataset.csv,
+				"Companion/MLModels/名称未設定10.numbers",
+				Documentation/DatabaseSchema.md,
+				Info.plist,
+				Resource/LocalizationAssets/ReferenceDocs/de_StyleNotes.md,
+				Resource/LocalizationAssets/ReferenceDocs/en_StyleNotes.md,
+				Resource/LocalizationAssets/ReferenceDocs/fr_StyleNotes.md,
+				Resource/LocalizationAssets/ReferenceDocs/hi_StyleNotes.md,
+				Resource/LocalizationAssets/ReferenceDocs/ja_StyleNotes.md,
+				Resource/LocalizationAssets/ReferenceDocs/ko_StyleNotes.md,
+				Resource/LocalizationAssets/ReferenceDocs/nb_StyleNotes.md,
+				Resource/LocalizationAssets/ReferenceDocs/sv_StyleNotes.md,
+				"Resource/LocalizationAssets/ReferenceDocs/zh-Hans_StyleNotes.md",
+				Resource/LocalizationAssets/StyleGuides/StyleKeyMapping.csv,
+			);
+			target = D890A0C52E876E9800924232 /* QuestMe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D890A0C82E876E9800924232 /* QuestMe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D8F624912E8BF07000EE1FDD /* Exceptions for "QuestMe" folder in "QuestMe" target */,
+			);
+			path = QuestMe;
+			sourceTree = "<group>";
+		};
+		D890A0D82E876E9900924232 /* QuestMeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = QuestMeTests;
+			sourceTree = "<group>";
+		};
+		D890A0E22E876E9900924232 /* QuestMeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = QuestMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D890A0C32E876E9800924232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890A0D22E876E9900924232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890A0DC2E876E9900924232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D01CAE632546726A8DA78F52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D89D9C702EA9224C00AE2B49 /* GoogleMapsUtils.framework */,
+				D89D9C6C2EA9222000AE2B49 /* GoogleMaps.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D890A0BD2E876E9800924232 = {
+			isa = PBXGroup;
+			children = (
+				D890A0C82E876E9800924232 /* QuestMe */,
+				D890A0D82E876E9900924232 /* QuestMeTests */,
+				D890A0E22E876E9900924232 /* QuestMeUITests */,
+				D890A0C72E876E9800924232 /* Products */,
+				EF81AC239F50BF81C543C050 /* Pods */,
+				D01CAE632546726A8DA78F52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D890A0C72E876E9800924232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D890A0C62E876E9800924232 /* QuestMe.app */,
+				D890A0D52E876E9900924232 /* QuestMeTests.xctest */,
+				D890A0DF2E876E9900924232 /* QuestMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF81AC239F50BF81C543C050 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D890A0C52E876E9800924232 /* QuestMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D890A0E92E876E9900924232 /* Build configuration list for PBXNativeTarget "QuestMe" */;
+			buildPhases = (
+				D890A0C22E876E9800924232 /* Sources */,
+				D890A0C32E876E9800924232 /* Frameworks */,
+				D890A0C42E876E9800924232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D890A0C82E876E9800924232 /* QuestMe */,
+			);
+			name = QuestMe;
+			productName = QuestMe;
+			productReference = D890A0C62E876E9800924232 /* QuestMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D890A0D42E876E9900924232 /* QuestMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D890A0EC2E876E9900924232 /* Build configuration list for PBXNativeTarget "QuestMeTests" */;
+			buildPhases = (
+				D890A0D12E876E9900924232 /* Sources */,
+				D890A0D22E876E9900924232 /* Frameworks */,
+				D890A0D32E876E9900924232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D890A0D72E876E9900924232 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D890A0D82E876E9900924232 /* QuestMeTests */,
+			);
+			name = QuestMeTests;
+			productName = QuestMeTests;
+			productReference = D890A0D52E876E9900924232 /* QuestMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D890A0DE2E876E9900924232 /* QuestMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D890A0EF2E876E9900924232 /* Build configuration list for PBXNativeTarget "QuestMeUITests" */;
+			buildPhases = (
+				D890A0DB2E876E9900924232 /* Sources */,
+				D890A0DC2E876E9900924232 /* Frameworks */,
+				D890A0DD2E876E9900924232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D890A0E12E876E9900924232 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D890A0E22E876E9900924232 /* QuestMeUITests */,
+			);
+			name = QuestMeUITests;
+			productName = QuestMeUITests;
+			productReference = D890A0DF2E876E9900924232 /* QuestMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D890A0BE2E876E9800924232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					D890A0C52E876E9800924232 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					D890A0D42E876E9900924232 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = D890A0C52E876E9800924232;
+					};
+					D890A0DE2E876E9900924232 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = D890A0C52E876E9800924232;
+					};
+				};
+			};
+			buildConfigurationList = D890A0C12E876E9800924232 /* Build configuration list for PBXProject "QuestMe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				fr,
+				"zh-Hans",
+				de,
+				ko,
+				hi,
+				sv,
+				nb,
+				"zh-Hant",
+				es,
+				ar,
+				"pt-PT",
+				th,
+			);
+			mainGroup = D890A0BD2E876E9800924232;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D890A0C72E876E9800924232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D890A0C52E876E9800924232 /* QuestMe */,
+				D890A0D42E876E9900924232 /* QuestMeTests */,
+				D890A0DE2E876E9900924232 /* QuestMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D890A0C42E876E9800924232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890A0D32E876E9900924232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890A0DD2E876E9900924232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D890A0C22E876E9800924232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890A0D12E876E9900924232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890A0DB2E876E9900924232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D890A0D72E876E9900924232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D890A0C52E876E9800924232 /* QuestMe */;
+			targetProxy = D890A0D62E876E9900924232 /* PBXContainerItemProxy */;
+		};
+		D890A0E12E876E9900924232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D890A0C52E876E9800924232 /* QuestMe */;
+			targetProxy = D890A0E02E876E9900924232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D890A0E72E876E9900924232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FZH93744S2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D890A0E82E876E9900924232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FZH93744S2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D890A0EA2E876E9900924232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZH93744S2;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = QuestMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "食事・運動・おくすり・会議・スケジュールをカレンダーに登録。";
+				INFOPLIST_KEY_NSCameraUsageDescription = "食事撮影、処方箋撮影、GS1コード撮影、地域情報の写真利用。";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "PDF/Pages 生成や保存。";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "ナビゲーション中の到着検知。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "「近くのイベント」「美味しいお店」「観光地」検索。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "会議/講義録音、音声コマンド入力。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した画像を保存する場合。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "写真ライブラリから読み込む場合。";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "食事・運動・おくすり・会議・スケジュールをカレンダーに登録。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "音声認識による「スタート」「ストップ」「以上」などのコマンド。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juke16gt4.QuestMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D890A0EB2E876E9900924232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZH93744S2;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = QuestMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "食事・運動・おくすり・会議・スケジュールをカレンダーに登録。";
+				INFOPLIST_KEY_NSCameraUsageDescription = "食事撮影、処方箋撮影、GS1コード撮影、地域情報の写真利用。";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "PDF/Pages 生成や保存。";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "ナビゲーション中の到着検知。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "「近くのイベント」「美味しいお店」「観光地」検索。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "会議/講義録音、音声コマンド入力。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した画像を保存する場合。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "写真ライブラリから読み込む場合。";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "食事・運動・おくすり・会議・スケジュールをカレンダーに登録。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "音声認識による「スタート」「ストップ」「以上」などのコマンド。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juke16gt4.QuestMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D890A0ED2E876E9900924232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZH93744S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juke16gt4.QuestMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuestMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuestMe";
+			};
+			name = Debug;
+		};
+		D890A0EE2E876E9900924232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZH93744S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juke16gt4.QuestMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuestMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuestMe";
+			};
+			name = Release;
+		};
+		D890A0F02E876E9900924232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZH93744S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juke16gt4.QuestMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuestMe;
+			};
+			name = Debug;
+		};
+		D890A0F12E876E9900924232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZH93744S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juke16gt4.QuestMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuestMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D890A0C12E876E9800924232 /* Build configuration list for PBXProject "QuestMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D890A0E72E876E9900924232 /* Debug */,
+				D890A0E82E876E9900924232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D890A0E92E876E9900924232 /* Build configuration list for PBXNativeTarget "QuestMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D890A0EA2E876E9900924232 /* Debug */,
+				D890A0EB2E876E9900924232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D890A0EC2E876E9900924232 /* Build configuration list for PBXNativeTarget "QuestMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D890A0ED2E876E9900924232 /* Debug */,
+				D890A0EE2E876E9900924232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D890A0EF2E876E9900924232 /* Build configuration list for PBXNativeTarget "QuestMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D890A0F02E876E9900924232 /* Debug */,
+				D890A0F12E876E9900924232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	
+};
